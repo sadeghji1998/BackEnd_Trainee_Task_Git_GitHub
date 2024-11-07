@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd_Trainee_Task_Git_GitHub", "BackEnd_Trainee_Task_Git_GitHub\BackEnd_Trainee_Task_Git_GitHub.csproj", "{FDBFA999-0110-4075-B4CF-39D7289D0661}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDBFA999-0110-4075-B4CF-39D7289D0661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBFA999-0110-4075-B4CF-39D7289D0661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBFA999-0110-4075-B4CF-39D7289D0661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBFA999-0110-4075-B4CF-39D7289D0661}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6496EE2-9DDF-41EA-97DB-4F31B6303D45}
+	EndGlobalSection
+EndGlobal

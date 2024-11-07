@@ -1,0 +1,35 @@
+commit f03429afce4e2f2391eea98e3d4bed31726b888f
+Author: Sadegh Jafari <sadeghji1998@gmail.com>
+Date:   Fri Nov 8 02:15:01 2024 +0330
+
+    This is my Practice Amend
+
+diff --git a/BackEnd_Trainee_Task_Git_GitHub/Program.cs b/BackEnd_Trainee_Task_Git_GitHub/Program.cs
+index 9c17545..015dc90 100644
+--- a/BackEnd_Trainee_Task_Git_GitHub/Program.cs
++++ b/BackEnd_Trainee_Task_Git_GitHub/Program.cs
+@@ -19,15 +19,22 @@ namespace BackEnd_Trainee_Task_Git_GitHub
+                 new Product { Id = 5, Name = "Product E", Category = Categories.Category1, Price = 80 }
+             };
+ 
++            var List1 = products.Where(x => x.Category == Categories.Category1).GroupBy(x => x.Category == Categories.Category1).ToList();
+ 
++            foreach (var Group in List1)
++            {
++                foreach (var item in Group)
++                {
++                    Console.WriteLine(item);
++                }
+ 
++            }
+ 
+ 
+ 
+ 
+ 
+-
+-
++             Console.ReadKey();
+         }
+     }
+ }

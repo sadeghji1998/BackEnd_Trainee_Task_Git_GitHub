@@ -19,15 +19,22 @@ namespace BackEnd_Trainee_Task_Git_GitHub
                 new Product { Id = 5, Name = "Product E", Category = Categories.Category1, Price = 80 }
             };
 
+            var List1 = products.Where(x => x.Category == Categories.Category1).GroupBy(x => x.Category == Categories.Category1).ToList();
+
+            foreach (var Group in List1)
+            {
+                foreach (var item in Group)
+                {
+                    Console.WriteLine(item);
+                }
+
+            }
 
 
 
 
 
-
-
-
-
+             Console.ReadKey();
         }
     }
 }

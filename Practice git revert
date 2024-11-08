@@ -1,0 +1,3 @@
+Time travel and back to past commits
+Revert changes to a commit with the git revert command
+The occurrence of conflict and its resolution in git revert

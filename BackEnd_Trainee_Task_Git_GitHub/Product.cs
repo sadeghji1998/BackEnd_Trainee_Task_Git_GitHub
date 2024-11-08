@@ -25,6 +25,7 @@ namespace BackEnd_Trainee_Task_Git_GitHub
 
         public override string ToString()
         {
+            Console.WriteLine();
             return string.Format("ID: {0}\nName: {1}\nCategory: {2}\nPrice: {3}",Id,Name,Category,Price);
         }
 
